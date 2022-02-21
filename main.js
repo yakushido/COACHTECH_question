@@ -1,6 +1,11 @@
-const target = document.getElementsByClassName("hamburger-menu");
-const bar = document.getElementsByClassName("hamburger-menu--bar");
+const target = document.getElementById("hamburger-menu");
 
 target.addEventListener('click', () => {
-  bar.classList.toggle('active');
+  target.classList.toggle('active');
+});
+
+const target2 = document.getElementById("hamburger-menu2--bar");
+
+target2.addEventListener('click', () => {
+  target2.classList.toggle('active');
 });
